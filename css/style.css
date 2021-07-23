@@ -1,0 +1,460 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #dfdfdf;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            font-size: 15px;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        /*navigation*/
+        
+        .my-container {
+            width: 100%;
+            padding: 0;
+            color: white;
+        }
+        
+        #mynavigation {
+            background: none;
+            border: none;
+            position: absolute;
+            z-index: 10;
+        }
+        
+        #mynavigation a {
+            color: white;
+        }
+        
+        #mynavigation .navbar-header {}
+        
+        #mynavigation .navbar-toggle {
+            display: block;
+            border: none;
+            background: none;
+            margin-left: 65rem;
+        }
+        
+        #mynavigation .navbar-brand {
+            margin-top: -3.2rem;
+        }
+        
+        #mynavigation .icon-bar {
+            background-color: white;
+        }
+        
+        #mynavigation .icon-left {
+            float: left;
+        }
+        
+        #mynavigation .icon-right {
+            float: right;
+            margin-top: -0.2rem;
+            margin-left: 0.5rem;
+        }
+        /*carousel*/
+        
+        #myCarousel .item {
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-image: url(../img/Hielo/images/slide01.jpg);
+        }
+        
+        #myCarousel .item-2 {
+            background-image: url(../img/Hielo/images/slide02.jpg);
+        }
+        
+        #myCarousel .item-3 {
+            background-image: url(../img/Hielo/images/slide03.jpg);
+        }
+        
+        #myCarousel .item-4 {
+            background-image: url(../img/Hielo/images/slide04.jpg);
+        }
+        
+        #myCarousel .item-5 {
+            background-image: url(../img/Hielo/images/slide05.jpg);
+        }
+        /*bannner*/
+        
+        .banner {
+            position: absolute;
+            z-index: 10;
+            top: 15rem;
+            left: 29rem;
+        }
+        
+        .banner p {
+            font-size: 1rem;
+            letter-spacing: 0.1rem;
+        }
+        
+        .banner hr {
+            width: 50%;
+        }
+        
+        .banner h1 {
+            font-size: 5rem;
+            font-weight: 900;
+        }
+        /*second-section*/
+        
+        .second-section {
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        
+        .second-section .left,
+        .second-section .right {
+            background-color: white;
+            color: gray;
+        }
+        
+        .left h6,
+        .right h6 {
+            letter-spacing: 0.2rem;
+            margin-top: 4rem;
+            font-weight: 900;
+        }
+        
+        .left hr,
+        .right hr {
+            width: 40%;
+            margin-top: 0;
+        }
+        
+        .left h3,
+        .right h3 {
+            color: black;
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin-top: -0.6rem;
+        }
+        
+        .left p,
+        .right p {
+            text-align: left;
+            padding: 6%;
+            line-height: 1.8rem;
+            text-align: justify;
+            font-weight: 900;
+        }
+        
+        .left .btn,
+        .right .btn {
+            width: 125px;
+            height: 35px;
+            background: none;
+            color: black;
+            border: 1px solid gray;
+            margin-top: -0.8rem;
+            margin-bottom: 3rem;
+            font-weight: 900;
+        }
+        /*full-quote*/
+        
+        .full-quote {
+            background-image: url(../img/Hielo/images/bg.jpg);
+            color: white;
+            padding: 5% 0 4% 0;
+        }
+        
+        .full-quote p {
+            color: gray;
+            letter-spacing: 0.2rem;
+            font-weight: 900;
+        }
+        
+        .full-quote hr {
+            width: 50%;
+        }
+        
+        .full-quote h5 {
+            font-size: 1.6rem;
+            font-weight: 100;
+        }
+        /*last-section*/
+        
+        .last-section {
+            padding: 5%;
+        }
+        
+        .last-section p {
+            color: gray;
+            letter-spacing: 0.2rem;
+            font-weight: 900;
+        }
+        
+        .last-section hr {
+            width: 50%;
+        }
+        
+        .last-section h5 {
+            font-size: 1.6rem;
+            font-weight: 100;
+            color: black;
+        }
+        
+        .last-section img {
+            border: 10px solid white;
+            margin-top: 2rem;
+        }
+        /*footer*/
+        
+        .footer {
+            background-color: black;
+            color: gray;
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+        
+        .footer .social span {
+            margin: 0 0.8rem 0 0.8rem;
+            font-size: 1.3rem;
+        }
+        
+        .footer p {
+            font-size: 1rem;
+            margin-top: 1.6rem;
+            font-weight: 900;
+        }
+        
+        @media (max-width:1200px) {
+            /*bannner*/
+            .banner {
+                left: 17rem;
+            }
+            .banner p {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width:1100px) {
+            /*bannner*/
+            .banner {
+                left: 16rem;
+            }
+            .banner p {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width:1000px) {
+            /*bannner*/
+            .banner {
+                left: 14rem;
+            }
+            /*second-section*/
+            .left h6,
+            .right h6 {
+                font-size: 0.6rem;
+            }
+            .left hr,
+            .right hr {
+                width: 45%;
+            }
+            .left h3,
+            .right h3 {
+                font-size: 1.2rem;
+            }
+            .left p,
+            .right p {
+                font-size: 0.7rem;
+            }
+            /*last-section*/
+            .last-section p {
+                line-height: 2rem;
+            }
+        }
+        
+        @media (max-width:950px) {
+            /*bannner*/
+            .banner {
+                left: 13rem;
+            }
+        }
+        
+        @media (max-width:900px) {
+            /*bannner*/
+            .banner {
+                left: 10rem;
+            }
+        }
+        
+        @media (max-width:850px) {
+            /*bannner*/
+            .banner {
+                left: 10rem;
+            }
+            .banner p {
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width:800px) {
+            /*bannner*/
+            .banner {
+                left: 10rem;
+            }
+            /*full-quote*/
+            .full-quote p {
+                font-size: 0.6rem;
+            }
+            /*last-section*/
+            .last-section p {
+                font-size: 0.6rem;
+            }
+        }
+        
+        @media (max-width:750px) {
+            /*bannner*/
+            .banner {
+                left: 8rem;
+            }
+        }
+        
+        @media (max-width:700px) {
+            #mynavigation .navbar-toggle {
+                margin-left: 10rem;
+            }
+            #mynavigation .navbar-brand {
+                margin-top: -3.2rem;
+            }
+            #mynavigation #myNavbar ul li {
+                margin-left: 0.8rem;
+            }
+            #mynavigation #myNavbar ul li:hover {
+                background-color: black;
+            }
+            /*bannner*/
+            .banner {
+                left: 0.7rem;
+            }
+            .banner p {
+                font-size: 0.9rem;
+            }
+            .banner hr {
+                width: 50%;
+            }
+            .banner h1 {
+                font-size: 5rem;
+            }
+            /*second-section*/
+            .second-section .left,
+            .second-section .right {
+                margin-bottom: 2rem;
+            }
+            /*full-quote*/
+            .full-quote {
+                padding: 7% 0 6% 0;
+            }
+            .full-quote p {
+                letter-spacing: 0.2rem;
+                font-size: 0.9rem;
+                line-height: 1.6rem;
+            }
+            /*last-section*/
+            .last-section {
+                margin-top: 2rem;
+            }
+            .last-section p {
+                letter-spacing: 0.2rem;
+                font-size: 0.9rem;
+                line-height: 1.6rem;
+            }
+            /*footer*/
+            .footer {
+                margin-top: 1rem;
+            }
+        }
+        
+        @media (max-width:500px) {
+            #mynavigation .navbar-toggle {
+                margin-left: 11rem;
+            }
+            #mynavigation .navbar-brand {
+                margin-top: 0rem;
+            }
+            /*bannner*/
+            .banner {
+                left: 2.8rem;
+            }
+            .full-quote p {
+                font-size: 0.5rem;
+                line-height: 1.6rem;
+            }
+            .full-quote hr {
+                width: 70%;
+            }
+            .full-quote h5 {
+                font-size: 1.2rem;
+            }
+            /*last-section*/
+            .last-section p {
+                font-size: 0.6rem;
+                line-height: 1.6rem;
+            }
+            .last-section hr {
+                width: 70%;
+            }
+            .last-section h5 {
+                font-size: 1.2rem;
+            }
+            /*footer*/
+            .footer .social span {
+                font-size: 1rem;
+            }
+            .footer p {
+                font-size: 0.8rem;
+            }
+        }
+        
+        @media (max-width:470px) {
+            #mynavigation .navbar-toggle {
+                margin-left: 10rem;
+            }
+            #mynavigation .navbar-brand {
+                margin-top: 0rem;
+            }
+        }
+        
+        @media (max-width:450px) {
+            #mynavigation .navbar-toggle {
+                margin-left: 10rem;
+            }
+            #mynavigation .navbar-brand {
+                margin-top: -3.2rem;
+            }
+            /*bannner*/
+            .banner {
+                left: 1.8rem;
+            }
+        }
+        
+        @media (max-width:440px) {
+            /*bannner*/
+            .banner {
+                left: 1.4rem;
+            }
+        }
+        
+        @media (max-width:430px) {
+            /*bannner*/
+            .banner {
+                left: 1.3rem;
+            }
+        }
+        
+        @media (max-width:420px) {
+            /*bannner*/
+            .banner {
+                left: 0.8rem;
+            }
+        }
